@@ -24,7 +24,7 @@ email = driver.find_element("id", "email")
 email.send_keys("sherxaan4@gmail.com")
 
 paswd = driver.find_element("id", "pass")
-paswd.send_keys("Sher39395050--++")
+paswd.send_keys("Sher39395050--++@@")
 submit_btn = driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
 submit_btn.click()
 time.sleep(30)
